@@ -77,7 +77,7 @@ generate_flashable(){
     echo "------------------------------";
 
     AK3_PATH=$TARGET_OUT/ak3
-    REC_RES=(focaltech_touch.ko goodix_core.ko hwid.ko msm_drm.ko xiaomi_touch.ko)
+    REC_RES=(focaltech_touch.ko goodix_core.ko hwid.ko xiaomi_touch.ko)
  
     echo ' Removing old package file ';
     rm -rf $AK3_PATH;
